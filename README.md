@@ -1,6 +1,6 @@
 # PP2 Tracker Android
 
-**Lataa:** [uusin versio](https://github.com/nousiainenlassi-afk/pp2-tracker-android-lataus/releases/latest) → *Assets* → `PP2-Tracker-Android-…apk`
+**Lataa:** [uusin versio](https://github.com/nousiainenlassi-afk/pp2-tracker-android-lataus/releases/latest) → *Assets* → `PP2-Tracker-Android-…apk` · muutokset: `PAIVITYSHISTORIA.txt` samasta kohdasta
 
 Windows-version asennusohjelma: [pp2-tracker-lataus](https://github.com/nousiainenlassi-afk/pp2-tracker-lataus/releases/latest)
 
@@ -21,7 +21,7 @@ tuloksen pienessä palkissa pelin päällä.
 
 ## Asennus
 
-1. Lataa puhelimella tiedosto **PP2-Tracker-Android-1.0-beta.apk**.
+1. Lataa puhelimella tiedosto **PP2-Tracker-Android-1.0.1-beta.apk**.
 2. Avaa ladattu tiedosto (ilmoituksista tai Tiedostot-sovelluksen
    Lataukset-kansiosta).
 3. Android kysyy, sallitaanko asennus tästä lähteestä: valitse
@@ -109,7 +109,7 @@ jakamisen lupa on voimassa vain, kunnes lopetat luvun.
 ## Päivitys ja poisto
 
 - **Päivitys:** lataa uusi APK ja asenna se vanhan päälle. Annetut luvat
-  säilyvät.
+  säilyvät. Muutokset: *PAIVITYSHISTORIA.txt* julkaisun tiedostoissa.
 - **Poisto:** kuten muutkin sovellukset (paina kuvaketta pitkään →
   Poista).
 
