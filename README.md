@@ -21,7 +21,7 @@ tuloksen pienessä palkissa pelin päällä.
 
 ## Asennus
 
-1. Lataa puhelimella tiedosto **PP2-Tracker-Android-1.0.1-beta.apk**.
+1. Lataa puhelimella tiedosto **PP2-Tracker-Android-1.0.2-beta.apk**.
 2. Avaa ladattu tiedosto (ilmoituksista tai Tiedostot-sovelluksen
    Lataukset-kansiosta).
 3. Android kysyy, sallitaanko asennus tästä lähteestä: valitse
@@ -106,10 +106,21 @@ Kaikki käsitellään puhelimessa. Sovellus ei lähetä mitään minnekään eik
 tallenna ruutua – paitsi kun itse painat *Tallenna testikuva*. Ruudun
 jakamisen lupa on voimassa vain, kunnes lopetat luvun.
 
+Ainoa verkkoyhteys on päivitystarkistus: kun sovellus avataan, se kysyy
+enintään kerran vuorokaudessa GitHubista uusimman version numeron. Mitään
+tietoja ei lähetetä; GitHub näkee pyynnön kuten minkä tahansa nettisivun
+avauksen. Laskuri toimii myös ilman verkkoa.
+
+Tekstintunnistuksen (Google ML Kit) omat käyttötilastot on kytketty pois.
+Versiot 1.0 ja 1.0.1 beta lähettivät niitä Googlelle (ei ruutukuvia eikä
+saalistietoja).
+
 ## Päivitys ja poisto
 
 - **Päivitys:** lataa uusi APK ja asenna se vanhan päälle. Annetut luvat
   säilyvät. Muutokset: *PAIVITYSHISTORIA.txt* julkaisun tiedostoissa.
+  Kun uusi versio julkaistaan, sovelluksen pääikkunaan tulee ilmoitus ja
+  **Lataa**-nappi. Vanhallakin versiolla voi jatkaa pelaamista.
 - **Poisto:** kuten muutkin sovellukset (paina kuvaketta pitkään →
   Poista).
 
