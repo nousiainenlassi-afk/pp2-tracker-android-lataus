@@ -1,8 +1,4 @@
-# PP2 Tracker Android
-
-**Lataa:** [uusin versio](https://github.com/nousiainenlassi-afk/pp2-tracker-android-lataus/releases/latest) → *Assets* → `PP2-Tracker-Android-…apk` · muutokset: `PAIVITYSHISTORIA.txt` samasta kohdasta
-
-Windows-version asennusohjelma: [pp2-tracker-lataus](https://github.com/nousiainenlassi-afk/pp2-tracker-lataus/releases/latest)
+# PP2 Tracker Android 1.0.3 beta
 
 Laskee Pro Pilkki 2:n kisatuloksen puhelimella pelattaessa. Peli ei näytä
 kisan tulosta kesken kisan; PP2 Tracker lukee nostot ruudulta ja näyttää
@@ -21,7 +17,7 @@ tuloksen pienessä palkissa pelin päällä.
 
 ## Asennus
 
-1. Lataa puhelimella tiedosto **PP2-Tracker-Android-1.0.2-beta.apk**.
+1. Lataa puhelimella tiedosto **PP2-Tracker-Android-1.0.3-beta.apk**.
 2. Avaa ladattu tiedosto (ilmoituksista tai Tiedostot-sovelluksen
    Lataukset-kansiosta).
 3. Android kysyy, sallitaanko asennus tästä lähteestä: valitse
@@ -42,7 +38,9 @@ tuloksen pienessä palkissa pelin päällä.
 ## Pelaaminen
 
 1. Avaa PP2 Tracker ja paina **Aloita ruudun luku**.
-2. Android kysyy lupaa ruudun jakamiseen: valitse **Koko näyttö** ja
+2. Android kysyy lupaa ruudun jakamiseen: valitse **Koko näyttö** (englanniksi *Share entire screen*; uusimmat
+   Androidit ehdottavat oletuksena yhtä sovellusta, vaihda se
+   alasvetovalikosta) ja
    **Aloita**. Lupa kysytään joka kerta – se on Androidin vaatimus.
 3. Avaa peli ja pelaa. Tulospalkki näkyy pelin päällä:
 
@@ -85,6 +83,25 @@ Lopetus: ilmoituksen **Lopeta**-nappi tai sovelluksen **Lopeta ruudun luku**.
 | Made / Made kpl | Vain made (, kpl) | Top 3 / Top 5 | Kolme / Viisi suurinta kalaa |
 | Siika / Siika kpl | Vain siika (, kpl) | Ruutu / Ruutu kpl | Ruutupilkki (, kpl) |
 | Harj. | Harjoittelu | | |
+
+## Kieli ja englanninkielinen peli
+
+Sovelluksen kieli vaihdetaan pääikkunan **Kieli**-valinnasta: Automaattinen
+(puhelimen kieli; suomi → suomi, muut → englanti), Suomi tai English.
+Kielen vaihto näkyy heti, myös tulospalkissa.
+
+Laskuri toimii myös englanninkielisellä pelillä: kalojen nimet (Perch,
+Ruffe, Slv.bream ...) ja kisatyyppi (GAME TYPE) tunnistetaan sekä suomeksi
+että englanniksi. Pelin kieli ja sovelluksen kieli ovat toisistaan
+riippumattomat. Ukrainan- ja venäjänkielistä peliä ei vielä tueta.
+
+## Kisaloki
+
+Jokaisen kisan tapahtumat (nostot, peruutukset, kisatyypin vaihdot) ja
+kisan päättyessä kalat lajeittain tallentuvat tekstitiedostoon kansioon
+**Lataukset/PP2 Tracker/kisalokit** (yksi tiedosto kisaa kohden, enintään
+30 uusinta). Siitä voi tarkistaa jälkikäteen, jäikö kala laskematta tai
+tuliko se kahdesti. Erillistä tallennuslupaa ei tarvita.
 
 ## Ongelmia?
 
@@ -129,3 +146,4 @@ saalistietoja).
 - Testattu vain emulaattorilla, näyttö 2400 × 1080.
 - Saalis häviää, jos Android sulkee sovelluksen taustalla.
 - Kalaa ei voi vielä lisätä käsin.
+- Ukrainan- ja venäjänkielistä peliä ei tueta (suomi ja englanti toimivat).
