@@ -1,4 +1,4 @@
-# PP2 Tracker Android 1.0.4 beta
+# PP2 Tracker Android 1.0.5 beta
 
 Laskee Pro Pilkki 2:n kisatuloksen puhelimella pelattaessa. Peli ei näytä
 kisan tulosta kesken kisan; PP2 Tracker lukee nostot ruudulta ja näyttää
@@ -17,7 +17,7 @@ tuloksen pienessä palkissa pelin päällä.
 
 ## Asennus
 
-1. Lataa puhelimella tiedosto **PP2-Tracker-Android-1.0.4-beta.apk**.
+1. Lataa puhelimella tiedosto **PP2-Tracker-Android-1.0.5-beta.apk**.
 2. Avaa ladattu tiedosto (ilmoituksista tai Tiedostot-sovelluksen
    Lataukset-kansiosta).
 3. Android kysyy, sallitaanko asennus tästä lähteestä: valitse
