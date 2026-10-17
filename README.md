@@ -1,18 +1,4 @@
-# PP2 Tracker Android
-
-> ## ⚠️ Lataus on toistaiseksi poissa käytöstä
->
-> Sovelluksen lataus on tauolla. Android (Google Play Protect) ja jotkin virustorjunta-ohjelmat
-> voivat varoittaa sovelluksesta tai estää sen asennuksen, koska se lukee pelin ruudun, piirtää
-> tulospalkin pelin päälle ja toimii taustalla. Joillakin puhelimilla ilmoitus on ollut
-> "mahdollinen seurantaohjelma" tai "haittaohjelma havaittu".
->
-> - Sovellus ei lähetä tietojasi eikä tallenna ruutua. Ainoa verkkoyhteys on uuden version tarkistus (vain versionumero).
-> - Varoitukset perustuvat pääosin sovelluksen oikeuksiin ja siihen, ettei sovellus ole Google Play -kaupassa.
-> - Ratkaisua selvitetään. Kun asennus saadaan sujumaan ilman varoituksia, lataus avataan tässä uudelleen.
->
-> Jos olet jo asentanut sovelluksen, voit jatkaa käyttöä entiseen tapaan. Jos puhelin ilmoittaa vaarasta
-> etkä tiedä miksi, älä ohita varoitusta huolimattomasti – kysy ensin kehittäjältä.
+# PP2 Tracker Android 1.0.4 beta
 
 Laskee Pro Pilkki 2:n kisatuloksen puhelimella pelattaessa. Peli ei näytä
 kisan tulosta kesken kisan; PP2 Tracker lukee nostot ruudulta ja näyttää
@@ -29,6 +15,17 @@ tuloksen pienessä palkissa pelin päällä.
 - Android 11 tai uudempi
 - Pro Pilkki 2 Androidille (Play Kaupasta)
 
+## Asennus
+
+1. Lataa puhelimella tiedosto **PP2-Tracker-Android-1.0.4-beta.apk**.
+2. Avaa ladattu tiedosto (ilmoituksista tai Tiedostot-sovelluksen
+   Lataukset-kansiosta).
+3. Android kysyy, sallitaanko asennus tästä lähteestä: valitse
+   **Asetukset → Salli tästä lähteestä** ja palaa takaisin.
+4. Paina **Asenna**.
+5. Jos Play Protect varoittaa tuntemattomasta sovelluksesta, valitse
+   **Lisätietoja → Asenna silti**. Varoitus tulee kaikista Play Kaupan
+   ulkopuolisista sovelluksista.
 
 ## Käyttöönotto (kerran)
 
@@ -114,6 +111,7 @@ tuliko se kahdesti. Erillistä tallennuslupaa ei tarvita.
 | Kaloja ei lasketa | Valitse ruudun jakamisessa **Koko näyttö**, ei yksittäistä sovellusta. |
 | Kala puuttuu tai paino on väärin | ↶ poistaa väärän kalan (käsin lisäys ei vielä onnistu). Ota testikuva (alla) ja lähetä. |
 | Laskuri nollautui itsestään | Kerro milloin – uuden kisan tunnistus on betassa. |
+| Android tai virustorjunta varoittaa sovelluksesta | Sovellus lukee pelin ruudun ja piirtää tulospalkin pelin päälle, minkä Play Protect ja jotkin virustorjunnat tulkitsevat usein epäilyttäväksi, koska sovellus ei ole Play-kaupassa. Sovellus ei lähetä tietojasi mihinkään. Jos et ole varma, älä asenna. |
 
 **Testikuva vikailmoitusta varten:** paina sovelluksessa
 **Tallenna testikuva**, palaa peliin ja odota hetki. Kuva tallentuu
@@ -137,8 +135,10 @@ saalistietoja).
 
 ## Päivitys ja poisto
 
-- **Päivitys:** uusia versioita ei toistaiseksi jaeta (ks. huomautus ylhäällä).
-  Asennetulla versiolla voi jatkaa pelaamista.
+- **Päivitys:** lataa uusi APK ja asenna se vanhan päälle. Annetut luvat
+  säilyvät. Muutokset: *PAIVITYSHISTORIA.txt* julkaisun tiedostoissa.
+  Kun uusi versio julkaistaan, sovelluksen pääikkunaan tulee ilmoitus ja
+  **Lataa**-nappi. Vanhallakin versiolla voi jatkaa pelaamista.
 - **Poisto:** kuten muutkin sovellukset (paina kuvaketta pitkään →
   Poista).
 
